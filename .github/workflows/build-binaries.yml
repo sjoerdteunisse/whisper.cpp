@@ -1,4 +1,4 @@
-name: Build Binaries for OpenWhispr
+name: Build Binaries for K1Assistant
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
         type: string
   push:
     tags:
-      - 'openwhispr-*'
+      - 'K1Assistant-*'
 
 permissions:
   contents: write
